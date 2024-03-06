@@ -2,7 +2,7 @@
 This repository utilizes the Attention-based VDN MARL to perform spectrum allocation and velocity level selection (Discrete Action Space). 
 - The Python environment is Python 3.6 and higher and needs PyTorch and NumPy libraries.
 - This repo tests the Attention-based VDN MARL against a simulated cellular-connected UAM scenario
-- The ground cellular users are randomly positioned, their locations for training and evaluation are in ('scenario_sim_training.txt') and ('scenario_sim_evaluation.txt')
+- The ground cellular users are randomly positioned, their locations for training and evaluation are in (‘scenario_sim_training.txt‘) and ('scenario_sim_evaluation.txt')
 - The aerial vehicles are assumed to moving between vertiports, and vertiports locations are shown in ('Multi_UAV_env.py')
 
 
