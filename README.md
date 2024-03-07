@@ -9,4 +9,4 @@ This repository utilizes the Attention-based VDN MARL to perform spectrum alloca
 For the code, the `main.py` file is the entry of the whole program and it will call the (`runner.py`) file to let the DRL algorithm training and evaluation. 
 In the (`runner.py`) file, it will utilize the (`/common/rollout.py`) to let the agent (`/agent/agent_UAV.py`) and the environment (`Multi_UAV_env.py`) have interactions to generate episodes.
 The generated episodes will be saved in the replay memory buffer (`/common/replay_buffer.py`) and be utilized to train the neural networks.
-For the agent, (`/agent/agent_UAV.py`) will call (`/policy/VDN_UAV.py`) to set their policies and initialize the neural networks 
+For the agent, (`/agent/agent_UAV.py`) will call (`/policy/acvdn_UAV.py`) to set their policies and initialize the neural networks 
